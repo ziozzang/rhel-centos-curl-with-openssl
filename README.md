@@ -9,7 +9,19 @@
 * Tested on Docker (CentOS7), Baremetal (CentOS/RHEL)
 
 # How to USE.
-* Run Command
+* install using rpm packages
+
+```
+# for CentOS6/RHEL6.x
+yum install -y \
+ https://github.com/ziozzang/rhel-centos-curl-with-openssl/raw/master/curl-fixed-7.58.0-20190423.CURL-ONLY.RH6.x86_64.rpm
+# for CentOS7/RHEL7.x
+yum install -y \
+ https://github.com/ziozzang/rhel-centos-curl-with-openssl/raw/master/curl-fixed-7.58.0-20190423.CURL-ONLY.RH7.x86_64.rpm
+
+```
+
+* Run Command (using tar)
 
 ```
 cd /usr/local && \
